@@ -15,9 +15,11 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>&lt;set from build phases script&gt;</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>&lt;set from build phases script&gt;</string>
+	<key>GIT_COMMIT_HASH</key>
+	<string>&lt;set from build phases script&gt;</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
