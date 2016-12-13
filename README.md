@@ -34,10 +34,35 @@ In order to provide *reliability* and *reduce bugs* as much as possible, we must
 
 #### Before creating a Pull-Request
 
-Before creating a PR, make sure you are complying with the expected code coverage. To do it, just run `fastlane test` lane (in macOS's **Terminal**). It runs some lanes. To see the output, take a look at:
+Before creating a PR, make sure you are complying with the expected code coverage. To do it, just run...
+
+```
+fastlane test
+``` 
+
+... lane (in macOS's **Terminal**). It runs some lanes. To see the output, take a look at:
 
 + **/swiftlint/result.json** for swift lint.
 + **/slather/coverage/index.html** for code coverage.
 + **/fastlane/test_output/report.html** for test results.
 
 **NOTE:** PRs won't be approved if the tests are failing or code coverage is less than mentioned in [Code Coverage](#code-coverage) section.
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```
+$ brew update
+$ brew install carthage
+```
+
+To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```
+github "nedblu/NDK" ~> 0.0
+```
+
+Run `carthage update` to build the framework and drag the built `NDK.framework` into your Xcode project.
