@@ -1,3 +1,6 @@
+[![codecov](https://codecov.io/gh/nedblu/NDK/branch/develop/graph/badge.svg)](https://codecov.io/gh/nedblu/NDK)
+[![twitter](https://img.shields.io/badge/twitter-@__eMdOS__-1dcaff.svg)](https://twitter.com/_eMdOS_)
+
 # NedBlu Development Kit (NDK)
 
 **NedBlu Development Kit** (NDK), is an `iOS` SDK (we hope soon be providing `macOS`, `tvOS` and `watchOS` support) powered and used by NedBlu.

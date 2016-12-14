@@ -1,5 +1,5 @@
 //
-//  NDKUnitTest.swift
+//  NDKTests.swift
 //  NDK
 //
 //  Created by eMdOS on 12/11/16.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import NDK
 
-class NDKUnitTest: XCTestCase {
+class NDKTests: XCTestCase {
 
     private(set) var ndkVersion: String?
     private(set) var ndkBuild: String?

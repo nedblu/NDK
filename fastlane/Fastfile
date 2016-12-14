@@ -43,7 +43,15 @@ platform :ios do
       output_directory: "slather/coverage",
       scheme: "NDK",
       proj: "NDK.xcodeproj",
-      html: true
+      html: true,
+      ignore: [
+        "NDK/Source/Extensions/UICollectionView.swift",
+        "NDK/Source/Extensions/UICollectionViewLayout.swift",
+        "NDK/Source/Extensions/UIStoryboard.swift",
+        "NDK/Source/Extensions/UITableView.swift",
+        "NDK/Source/Utils/NDK.swift",
+        "NDK/Source/Utils/StoryboardIdentifiable.swift"
+      ]
     )
   end
 

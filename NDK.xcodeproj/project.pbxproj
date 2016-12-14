@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF004AA81DFDCEDA00D6DC51 /* NDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF004AA71DFDCEDA00D6DC51 /* NDK.swift */; };
-		AF004AAA1DFDD26F00D6DC51 /* NDKUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF004AA91DFDD26F00D6DC51 /* NDKUnitTest.swift */; };
+		AF004AAA1DFDD26F00D6DC51 /* NDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF004AA91DFDD26F00D6DC51 /* NDKTests.swift */; };
 		AF1A7A131DFC742F00533578 /* NDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1A7A091DFC742F00533578 /* NDK.framework */; };
 		AF1A7A1A1DFC742F00533578 /* NDK.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1A7A0C1DFC742F00533578 /* NDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF1A7A271DFC768200533578 /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A261DFC768200533578 /* StoryboardIdentifiable.swift */; };
@@ -23,6 +23,8 @@
 		AF1A7A441DFC8C9F00533578 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A431DFC8C9F00533578 /* UICollectionView.swift */; };
 		AF1A7A461DFC8E3A00533578 /* UICollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A451DFC8E3A00533578 /* UICollectionViewLayout.swift */; };
 		AF1A7A481DFC8E5B00533578 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A471DFC8E5B00533578 /* UITableView.swift */; };
+		AF387F641E00B5BC001742A9 /* NibLoadableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF387F631E00B5BC001742A9 /* NibLoadableViewTests.swift */; };
+		AF387F661E00B838001742A9 /* ReusableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF387F651E00B838001742A9 /* ReusableViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		AF004AA71DFDCEDA00D6DC51 /* NDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDK.swift; sourceTree = "<group>"; };
-		AF004AA91DFDD26F00D6DC51 /* NDKUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDKUnitTest.swift; sourceTree = "<group>"; };
+		AF004AA91DFDD26F00D6DC51 /* NDKTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NDKTests.swift; sourceTree = "<group>"; };
 		AF1A7A091DFC742F00533578 /* NDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1A7A0C1DFC742F00533578 /* NDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDK.h; sourceTree = "<group>"; };
 		AF1A7A0D1DFC742F00533578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +60,8 @@
 		AF1A7A431DFC8C9F00533578 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		AF1A7A451DFC8E3A00533578 /* UICollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewLayout.swift; sourceTree = "<group>"; };
 		AF1A7A471DFC8E5B00533578 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		AF387F631E00B5BC001742A9 /* NibLoadableViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableViewTests.swift; sourceTree = "<group>"; };
+		AF387F651E00B838001742A9 /* ReusableViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +178,9 @@
 		AF1A7A321DFC798F00533578 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				AF004AA91DFDD26F00D6DC51 /* NDKUnitTest.swift */,
+				AF004AA91DFDD26F00D6DC51 /* NDKTests.swift */,
+				AF387F631E00B5BC001742A9 /* NibLoadableViewTests.swift */,
+				AF387F651E00B838001742A9 /* ReusableViewTests.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -357,8 +363,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF387F641E00B5BC001742A9 /* NibLoadableViewTests.swift in Sources */,
 				AF1A7A371DFC79F600533578 /* CollectionUnitTest.swift in Sources */,
-				AF004AAA1DFDD26F00D6DC51 /* NDKUnitTest.swift in Sources */,
+				AF387F661E00B838001742A9 /* ReusableViewTests.swift in Sources */,
+				AF004AAA1DFDD26F00D6DC51 /* NDKTests.swift in Sources */,
 				AF1A7A391DFC808500533578 /* ArrayUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
