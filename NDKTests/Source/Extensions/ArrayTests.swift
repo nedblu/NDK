@@ -1,5 +1,5 @@
 //
-//  ArrayUnitTest.swift
+//  ArrayTests.swift
 //  NDK
 //
 //  Created by eMdOS on 12/10/16.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ArrayUnitTest: XCTestCase {
+class ArrayTests: XCTestCase {
 
     func test_comparedAsEqual_whenGivenArrayHasNotDuplicates() {
         // given

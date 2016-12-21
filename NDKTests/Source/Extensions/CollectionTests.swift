@@ -1,5 +1,5 @@
 //
-//  CollectionUnitTest.swift
+//  CollectionTests.swift
 //  NDK
 //
 //  Created by eMdOS on 12/10/16.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import NDK
 
-class CollectionUnitTest: XCTestCase {
+class CollectionTests: XCTestCase {
 
     // MARK: - Test Cases
 

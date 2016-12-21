@@ -16,8 +16,8 @@
 		AF1A7A2B1DFC773100533578 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A2A1DFC773100533578 /* UIStoryboard.swift */; };
 		AF1A7A2D1DFC776B00533578 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A2C1DFC776B00533578 /* Array.swift */; };
 		AF1A7A2F1DFC781F00533578 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A2E1DFC781F00533578 /* Collection.swift */; };
-		AF1A7A371DFC79F600533578 /* CollectionUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A361DFC79F600533578 /* CollectionUnitTest.swift */; };
-		AF1A7A391DFC808500533578 /* ArrayUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A381DFC808500533578 /* ArrayUnitTest.swift */; };
+		AF1A7A371DFC79F600533578 /* CollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A361DFC79F600533578 /* CollectionTests.swift */; };
+		AF1A7A391DFC808500533578 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A381DFC808500533578 /* ArrayTests.swift */; };
 		AF1A7A401DFC8C5500533578 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A3F1DFC8C5500533578 /* NibLoadableView.swift */; };
 		AF1A7A421DFC8C7900533578 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A411DFC8C7900533578 /* ReusableView.swift */; };
 		AF1A7A441DFC8C9F00533578 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A7A431DFC8C9F00533578 /* UICollectionView.swift */; };
@@ -50,8 +50,8 @@
 		AF1A7A2A1DFC773100533578 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		AF1A7A2C1DFC776B00533578 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		AF1A7A2E1DFC781F00533578 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
-		AF1A7A361DFC79F600533578 /* CollectionUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionUnitTest.swift; sourceTree = "<group>"; };
-		AF1A7A381DFC808500533578 /* ArrayUnitTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayUnitTest.swift; sourceTree = "<group>"; };
+		AF1A7A361DFC79F600533578 /* CollectionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTests.swift; sourceTree = "<group>"; };
+		AF1A7A381DFC808500533578 /* ArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		AF1A7A3A1DFC844D00533578 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
 		AF1A7A3D1DFC86FA00533578 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
 		AF1A7A3E1DFC8A1400533578 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 		AF1A7A311DFC797F00533578 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				AF1A7A361DFC79F600533578 /* CollectionUnitTest.swift */,
-				AF1A7A381DFC808500533578 /* ArrayUnitTest.swift */,
+				AF1A7A381DFC808500533578 /* ArrayTests.swift */,
+				AF1A7A361DFC79F600533578 /* CollectionTests.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -364,10 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF387F641E00B5BC001742A9 /* NibLoadableViewTests.swift in Sources */,
-				AF1A7A371DFC79F600533578 /* CollectionUnitTest.swift in Sources */,
+				AF1A7A371DFC79F600533578 /* CollectionTests.swift in Sources */,
 				AF387F661E00B838001742A9 /* ReusableViewTests.swift in Sources */,
 				AF004AAA1DFDD26F00D6DC51 /* NDKTests.swift in Sources */,
-				AF1A7A391DFC808500533578 /* ArrayUnitTest.swift in Sources */,
+				AF1A7A391DFC808500533578 /* ArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
