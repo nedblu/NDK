@@ -8,9 +8,9 @@ NDK is written in *Swift 3*.
 
 ### Environment
 
- Xcode 8.1 (8B62)
+ Xcode 8.2.1 (8C1002)
 
- Swift 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)
+ 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)
 
  Fastlane 1.111.0
 
@@ -48,7 +48,6 @@ fastlane test
 
 **NOTE:** PRs won't be approved if the tests are failing or code coverage is less than mentioned in [Code Coverage](#code-coverage) section.
 
-<!---
 ### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
@@ -67,4 +66,3 @@ github "nedblu/NDK" ~> 0.0
 ```
 
 Run `carthage update` to build the framework and drag the built `NDK.framework` into your Xcode project.
--->
