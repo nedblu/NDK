@@ -18,6 +18,8 @@
 	<string>set from build phases</string>
 	<key>CFBundleVersion</key>
 	<string>set from build phases</string>
+	<key>GIT_COMMIT_HASH</key>
+	<string>set from build phases</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
