@@ -9,11 +9,11 @@
 import Foundation
 
 public extension UICollectionViewLayout {
-    func register<T: UICollectionReusableView>(decorationView: T.Type) where T: ReusableView {
+    public func register<T: UICollectionReusableView>(decorationView: T.Type) where T: ReusableView {
         register(T.self, forDecorationViewOfKind: T.reusableIdentifier)
     }
 
-    func register<T: UICollectionReusableView>(decorationView: T.Type) where T: ReusableView, T: NibLoadableView {
+    public func register<T: UICollectionReusableView>(decorationView: T.Type) where T: ReusableView, T: NibLoadableView {
         let nib = UINib(nibName: T.nibName, bundle: Bundle(for: T.self))
         register(nib, forDecorationViewOfKind: T.reusableIdentifier)
     }

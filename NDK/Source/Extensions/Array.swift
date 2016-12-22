@@ -11,7 +11,7 @@ import Foundation
 // MARK: - deduplicate
 
 public extension Array {
-    func deduplicate(_ comparing: (_ lhs: Element, _ rhs: Element) -> Bool) -> [Element] {
+    public func deduplicate(_ comparing: (_ lhs: Element, _ rhs: Element) -> Bool) -> [Element] {
         var results: [Element] = []
 
         forEach({ (element) in

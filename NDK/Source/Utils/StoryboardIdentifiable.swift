@@ -17,15 +17,15 @@ public protocol StoryboardIdentifiable: class {
 // MARK: - StoryboardIdentifiable | UIViewController
 
 public extension StoryboardIdentifiable where Self: UIViewController {
-    static var storyboardID: String {
+    public static var storyboardID: String {
         return String(describing: self)
     }
 
-    static func from(storyboard: UIStoryboard) -> Self? {
+    public static func from(storyboard: UIStoryboard) -> Self? {
         return fromStoryboard(type: self, storyboard: storyboard)
     }
 
-    static func from(storyboard: StoryboardInstantiable) -> Self? {
+    public static func from(storyboard: StoryboardInstantiable) -> Self? {
         return fromStoryboard(type: self, storyboard: storyboard.instance)
     }
 }

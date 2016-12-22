@@ -12,7 +12,7 @@ import Foundation
 
 public extension Collection where Indices.Iterator.Element == Index {
     /// Returns the `element` at the specified index if it is within bounds, otherwise returns `nil`.
-    subscript (safe index: Index) -> Generator.Element? {
+    public subscript (safe index: Index) -> Generator.Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }

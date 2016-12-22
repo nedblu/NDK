@@ -9,13 +9,13 @@
 import UIKit
 
 public extension UIStoryboard {
-    func viewController<T: StoryboardIdentifiable>(_ viewController: T.Type) -> T? where T: UIViewController {
+    public func viewController<T: StoryboardIdentifiable>(_ viewController: T.Type) -> T? where T: UIViewController {
         return self.instantiateViewController(withIdentifier: T.storyboardID) as? T
     }
 }
 
 public extension UIStoryboard {
-    convenience init(storyboard: StoryboardInstantiable, bundle: Bundle? = nil) {
+    public convenience init(storyboard: StoryboardInstantiable, bundle: Bundle? = nil) {
         self.init(name: storyboard.name, bundle: bundle)
     }
 }
