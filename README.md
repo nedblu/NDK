@@ -48,6 +48,7 @@ fastlane test
 
 **NOTE:** PRs won't be approved if the tests are failing or code coverage is less than mentioned in [Code Coverage](#code-coverage) section.
 
+<!---
 ### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
@@ -66,3 +67,4 @@ github "nedblu/NDK" ~> 0.0
 ```
 
 Run `carthage update` to build the framework and drag the built `NDK.framework` into your Xcode project.
+-->
